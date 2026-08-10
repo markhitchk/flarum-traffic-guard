@@ -1,0 +1,44 @@
+{
+  "name": "markhitchk/flarum-traffic-guard",
+  "description": "Admin-configurable IP, VPN, proxy, Tor and network access control for Flarum with custom block pages.",
+  "type": "flarum-extension",
+  "keywords": [
+    "flarum",
+    "security",
+    "firewall",
+    "vpn",
+    "proxy",
+    "ip-ban"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mark H"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "flarum/core": "^1.8",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MarkHitchk\\TrafficGuard\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Traffic Guard",
+      "icon": {
+        "name": "fas fa-shield-alt",
+        "backgroundColor": "#1f6feb",
+        "color": "#ffffff"
+      }
+    }
+  },
+  "homepage": "https://github.com/markhitchk/flarum-traffic-guard",
+  "support": {
+    "issues": "https://github.com/markhitchk/flarum-traffic-guard/issues",
+    "source": "https://github.com/markhitchk/flarum-traffic-guard"
+  }
+}
